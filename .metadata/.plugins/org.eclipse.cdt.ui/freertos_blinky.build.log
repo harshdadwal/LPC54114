@@ -1,0 +1,76 @@
+11:37:36 **** Build of configuration Debug for project freertos_blinky ****
+make -r -j8 all 
+Building file: ../src/FreeRTOSCommonHooks.c
+Building file: ../src/blinky.c
+Building file: ../src/cr_startup_lpc5411x.c
+Building file: ../src/croutine.c
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../src/heap_3.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/FreeRTOSCommonHooks.d" -MT"src/FreeRTOSCommonHooks.o" -MT"src/FreeRTOSCommonHooks.d" -o "src/FreeRTOSCommonHooks.o" "../src/FreeRTOSCommonHooks.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/blinky.d" -MT"src/blinky.o" -MT"src/blinky.d" -o "src/blinky.o" "../src/blinky.c"
+Invoking: MCU C Compiler
+Building file: ../src/list.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc5411x.d" -MT"src/cr_startup_lpc5411x.o" -MT"src/cr_startup_lpc5411x.d" -o "src/cr_startup_lpc5411x.o" "../src/cr_startup_lpc5411x.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/croutine.d" -MT"src/croutine.o" -MT"src/croutine.d" -o "src/croutine.o" "../src/croutine.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/heap_3.d" -MT"src/heap_3.o" -MT"src/heap_3.d" -o "src/heap_3.o" "../src/heap_3.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/list.d" -MT"src/list.o" -MT"src/list.d" -o "src/list.o" "../src/list.c"
+Building file: ../src/port.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/port.d" -MT"src/port.o" -MT"src/port.d" -o "src/port.o" "../src/port.c"
+Finished building: ../src/cr_startup_lpc5411x.c
+ 
+Building file: ../src/queue.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/queue.d" -MT"src/queue.o" -MT"src/queue.d" -o "src/queue.o" "../src/queue.c"
+Finished building: ../src/crp.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/blinky.c
+ 
+Building file: ../src/tasks.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/tasks.d" -MT"src/tasks.o" -MT"src/tasks.d" -o "src/tasks.o" "../src/tasks.c"
+Finished building: ../src/heap_3.c
+ 
+Finished building: ../src/FreeRTOSCommonHooks.c
+Building file: ../src/timers.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -DDEBUG -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/freertos_blinky/inc" -I"/home/harsh/LPC 54114/freertos/inc" -I"/home/harsh/LPC 54114/freertos/inc_arm_4f" -I"/home/harsh/LPC 54114/freertos/inc_freertoslpc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/timers.d" -MT"src/timers.o" -MT"src/timers.d" -o "src/timers.o" "../src/timers.c"
+ 
+Finished building: ../src/croutine.c
+ 
+Finished building: ../src/list.c
+ 
+Finished building: ../src/port.c
+ 
+Finished building: ../src/sysinit.c
+ 
+Finished building: ../src/timers.c
+ 
+Finished building: ../src/queue.c
+ 
+Finished building: ../src/tasks.c
+ 
+Building target: freertos_blinky.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harsh/LPC 54114/lpc_chip_5411x/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x/libs" -L"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/Debug" -Xlinker -Map="freertos_blinky.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "freertos_blinky_Debug.ld" -o "freertos_blinky.axf"  ./src/FreeRTOSCommonHooks.o ./src/blinky.o ./src/cr_startup_lpc5411x.o ./src/croutine.o ./src/crp.o ./src/heap_3.o ./src/list.o ./src/port.o ./src/queue.o ./src/sysinit.o ./src/tasks.o ./src/timers.o   -llpc_board_lpcxpresso_54114 -llpc_chip_5411x -lpower
+Finished building target: freertos_blinky.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "freertos_blinky.axf"; # arm-none-eabi-objcopy -v -O binary "freertos_blinky.axf" "freertos_blinky.bin" ; # checksum -p LPC54114J256 -d "freertos_blinky.bin";
+   text	   data	    bss	    dec	    hex	filename
+  20908	      8	    828	  21744	   54f0	freertos_blinky.axf
+ 
+
+11:37:37 Build Finished (took 1s.110ms)
+

@@ -1,0 +1,166 @@
+11:37:31 **** Build of configuration Debug for project lpc_chip_5411x ****
+make -r all 
+Building file: ../src/adc_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/adc_5411x.d" -MT"src/adc_5411x.o" -MT"src/adc_5411x.d" -o "src/adc_5411x.o" "../src/adc_5411x.c"
+Finished building: ../src/adc_5411x.c
+ 
+Building file: ../src/chip_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/chip_5411x.d" -MT"src/chip_5411x.o" -MT"src/chip_5411x.d" -o "src/chip_5411x.o" "../src/chip_5411x.c"
+Finished building: ../src/chip_5411x.c
+ 
+Building file: ../src/clock_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/clock_5411x.d" -MT"src/clock_5411x.o" -MT"src/clock_5411x.d" -o "src/clock_5411x.o" "../src/clock_5411x.c"
+Finished building: ../src/clock_5411x.c
+ 
+Building file: ../src/dma_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/dma_5411x.d" -MT"src/dma_5411x.o" -MT"src/dma_5411x.d" -o "src/dma_5411x.o" "../src/dma_5411x.c"
+Finished building: ../src/dma_5411x.c
+ 
+Building file: ../src/dma_service_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/dma_service_5411x.d" -MT"src/dma_service_5411x.o" -MT"src/dma_service_5411x.d" -o "src/dma_service_5411x.o" "../src/dma_service_5411x.c"
+Finished building: ../src/dma_service_5411x.c
+ 
+Building file: ../src/dmic_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/dmic_5411x.d" -MT"src/dmic_5411x.o" -MT"src/dmic_5411x.d" -o "src/dmic_5411x.o" "../src/dmic_5411x.c"
+Finished building: ../src/dmic_5411x.c
+ 
+Building file: ../src/flexcomm_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/flexcomm_5411x.d" -MT"src/flexcomm_5411x.o" -MT"src/flexcomm_5411x.d" -o "src/flexcomm_5411x.o" "../src/flexcomm_5411x.c"
+Finished building: ../src/flexcomm_5411x.c
+ 
+Building file: ../src/fpu_init.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/fpu_init.d" -MT"src/fpu_init.o" -MT"src/fpu_init.d" -o "src/fpu_init.o" "../src/fpu_init.c"
+Finished building: ../src/fpu_init.c
+ 
+Building file: ../src/i2cm_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2cm_5411x.d" -MT"src/i2cm_5411x.o" -MT"src/i2cm_5411x.d" -o "src/i2cm_5411x.o" "../src/i2cm_5411x.c"
+Finished building: ../src/i2cm_5411x.c
+ 
+Building file: ../src/i2cs_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2cs_5411x.d" -MT"src/i2cs_5411x.o" -MT"src/i2cs_5411x.d" -o "src/i2cs_5411x.o" "../src/i2cs_5411x.c"
+Finished building: ../src/i2cs_5411x.c
+ 
+Building file: ../src/i2s_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2s_5411x.d" -MT"src/i2s_5411x.o" -MT"src/i2s_5411x.d" -o "src/i2s_5411x.o" "../src/i2s_5411x.c"
+Finished building: ../src/i2s_5411x.c
+ 
+Building file: ../src/iap.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/iap.d" -MT"src/iap.o" -MT"src/iap.d" -o "src/iap.o" "../src/iap.c"
+Finished building: ../src/iap.c
+ 
+Building file: ../src/pll_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/pll_5411x.d" -MT"src/pll_5411x.o" -MT"src/pll_5411x.d" -o "src/pll_5411x.o" "../src/pll_5411x.c"
+Finished building: ../src/pll_5411x.c
+ 
+Building file: ../src/ring_buffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/ring_buffer.d" -MT"src/ring_buffer.o" -MT"src/ring_buffer.d" -o "src/ring_buffer.o" "../src/ring_buffer.c"
+Finished building: ../src/ring_buffer.c
+ 
+Building file: ../src/rtc_ut.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/rtc_ut.d" -MT"src/rtc_ut.o" -MT"src/rtc_ut.d" -o "src/rtc_ut.o" "../src/rtc_ut.c"
+Finished building: ../src/rtc_ut.c
+ 
+Building file: ../src/sct_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sct_5411x.d" -MT"src/sct_5411x.o" -MT"src/sct_5411x.d" -o "src/sct_5411x.o" "../src/sct_5411x.c"
+Finished building: ../src/sct_5411x.c
+ 
+Building file: ../src/sct_pwm_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sct_pwm_5411x.d" -MT"src/sct_pwm_5411x.o" -MT"src/sct_pwm_5411x.d" -o "src/sct_pwm_5411x.o" "../src/sct_pwm_5411x.c"
+Finished building: ../src/sct_pwm_5411x.c
+ 
+Building file: ../src/spi_common_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/spi_common_5411x.d" -MT"src/spi_common_5411x.o" -MT"src/spi_common_5411x.d" -o "src/spi_common_5411x.o" "../src/spi_common_5411x.c"
+Finished building: ../src/spi_common_5411x.c
+ 
+Building file: ../src/spim_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/spim_5411x.d" -MT"src/spim_5411x.o" -MT"src/spim_5411x.d" -o "src/spim_5411x.o" "../src/spim_5411x.c"
+Finished building: ../src/spim_5411x.c
+ 
+Building file: ../src/spis_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/spis_5411x.d" -MT"src/spis_5411x.o" -MT"src/spis_5411x.d" -o "src/spis_5411x.o" "../src/spis_5411x.c"
+Finished building: ../src/spis_5411x.c
+ 
+Building file: ../src/stopwatch_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/stopwatch_5411x.d" -MT"src/stopwatch_5411x.o" -MT"src/stopwatch_5411x.d" -o "src/stopwatch_5411x.o" "../src/stopwatch_5411x.c"
+Finished building: ../src/stopwatch_5411x.c
+ 
+Building file: ../src/syscon_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/syscon_5411x.d" -MT"src/syscon_5411x.o" -MT"src/syscon_5411x.d" -o "src/syscon_5411x.o" "../src/syscon_5411x.c"
+Finished building: ../src/syscon_5411x.c
+ 
+Building file: ../src/sysinit_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sysinit_5411x.d" -MT"src/sysinit_5411x.o" -MT"src/sysinit_5411x.d" -o "src/sysinit_5411x.o" "../src/sysinit_5411x.c"
+Finished building: ../src/sysinit_5411x.c
+ 
+Building file: ../src/timer_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/timer_5411x.d" -MT"src/timer_5411x.o" -MT"src/timer_5411x.d" -o "src/timer_5411x.o" "../src/timer_5411x.c"
+Finished building: ../src/timer_5411x.c
+ 
+Building file: ../src/uart_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/uart_5411x.d" -MT"src/uart_5411x.o" -MT"src/uart_5411x.d" -o "src/uart_5411x.o" "../src/uart_5411x.c"
+Finished building: ../src/uart_5411x.c
+ 
+Building target: liblpc_chip_5411x.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_chip_5411x.a"  ./src/adc_5411x.o ./src/chip_5411x.o ./src/clock_5411x.o ./src/dma_5411x.o ./src/dma_service_5411x.o ./src/dmic_5411x.o ./src/flexcomm_5411x.o ./src/fpu_init.o ./src/i2cm_5411x.o ./src/i2cs_5411x.o ./src/i2s_5411x.o ./src/iap.o ./src/pll_5411x.o ./src/ring_buffer.o ./src/rtc_ut.o ./src/sct_5411x.o ./src/sct_pwm_5411x.o ./src/spi_common_5411x.o ./src/spim_5411x.o ./src/spis_5411x.o ./src/stopwatch_5411x.o ./src/syscon_5411x.o ./src/sysinit_5411x.o ./src/timer_5411x.o ./src/uart_5411x.o   
+arm-none-eabi-ar: creating liblpc_chip_5411x.a
+Finished building target: liblpc_chip_5411x.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_chip_5411x.a" ; # arm-none-eabi-objdump -h -S "liblpc_chip_5411x.a" >"liblpc_chip_5411x.lss"
+   text	   data	    bss	    dec	    hex	filename
+    496	      0	      0	    496	    1f0	adc_5411x.o (ex liblpc_chip_5411x.a)
+    408	      0	      0	    408	    198	chip_5411x.o (ex liblpc_chip_5411x.a)
+   1779	      0	      4	   1783	    6f7	clock_5411x.o (ex liblpc_chip_5411x.a)
+      0	      0	      0	      0	      0	dma_5411x.o (ex liblpc_chip_5411x.a)
+   1104	      0	      0	   1104	    450	dma_service_5411x.o (ex liblpc_chip_5411x.a)
+    690	     96	      0	    786	    312	dmic_5411x.o (ex liblpc_chip_5411x.a)
+    836	      0	      0	    836	    344	flexcomm_5411x.o (ex liblpc_chip_5411x.a)
+    116	      0	      0	    116	     74	fpu_init.o (ex liblpc_chip_5411x.a)
+    990	      0	      0	    990	    3de	i2cm_5411x.o (ex liblpc_chip_5411x.a)
+    542	      0	      0	    542	    21e	i2cs_5411x.o (ex liblpc_chip_5411x.a)
+   1386	      0	      0	   1386	    56a	i2s_5411x.o (ex liblpc_chip_5411x.a)
+    552	      0	      0	    552	    228	iap.o (ex liblpc_chip_5411x.a)
+   3622	      0	      4	   3626	    e2a	pll_5411x.o (ex liblpc_chip_5411x.a)
+    988	      0	      0	    988	    3dc	ring_buffer.o (ex liblpc_chip_5411x.a)
+    728	     24	      0	    752	    2f0	rtc_ut.o (ex liblpc_chip_5411x.a)
+    366	      0	      0	    366	    16e	sct_5411x.o (ex liblpc_chip_5411x.a)
+    430	      0	      0	    430	    1ae	sct_pwm_5411x.o (ex liblpc_chip_5411x.a)
+    316	      0	      0	    316	    13c	spi_common_5411x.o (ex liblpc_chip_5411x.a)
+   1860	      0	      0	   1860	    744	spim_5411x.o (ex liblpc_chip_5411x.a)
+   1528	      0	      0	   1528	    5f8	spis_5411x.o (ex liblpc_chip_5411x.a)
+    664	      0	     12	    676	    2a4	stopwatch_5411x.o (ex liblpc_chip_5411x.a)
+    426	      0	      0	    426	    1aa	syscon_5411x.o (ex liblpc_chip_5411x.a)
+    866	      0	      0	    866	    362	sysinit_5411x.o (ex liblpc_chip_5411x.a)
+    174	      0	      0	    174	     ae	timer_5411x.o (ex liblpc_chip_5411x.a)
+   2990	      0	      0	   2990	    bae	uart_5411x.o (ex liblpc_chip_5411x.a)
+ 
+
+11:37:34 Build Finished (took 3s.334ms)
+

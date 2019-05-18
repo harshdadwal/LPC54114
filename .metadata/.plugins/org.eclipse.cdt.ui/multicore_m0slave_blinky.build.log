@@ -1,0 +1,37 @@
+11:37:45 **** Build of configuration Debug for project multicore_m0slave_blinky ****
+make -r -j8 all 
+Building file: ../src/cr_startup_lpc5411x-m0.c
+Building file: ../src/crp.c
+Building file: ../src/m0slave_blinky.c
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_M0SLAVE -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc5411x-m0.d" -MT"src/cr_startup_lpc5411x-m0.o" -MT"src/cr_startup_lpc5411x-m0.d" -o "src/cr_startup_lpc5411x-m0.o" "../src/cr_startup_lpc5411x-m0.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_M0SLAVE -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_M0SLAVE -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/m0slave_blinky.d" -MT"src/m0slave_blinky.o" -MT"src/m0slave_blinky.d" -o "src/m0slave_blinky.o" "../src/m0slave_blinky.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M0PLUS -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_M0SLAVE -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/crp.c
+ 
+Finished building: ../src/cr_startup_lpc5411x-m0.c
+ 
+Finished building: ../src/sysinit.c
+ 
+Finished building: ../src/m0slave_blinky.c
+ 
+Building target: multicore_m0slave_blinky.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114_m0/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x_m0/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x_m0/libs" -Xlinker -Map="multicore_m0slave_blinky.map" -Xlinker --gc-sections -mcpu=cortex-m0 -mthumb -T "multicore_m0slave_blinky_Multiple_configurations.ld" -o "multicore_m0slave_blinky.axf"  ./src/cr_startup_lpc5411x-m0.o ./src/crp.o ./src/m0slave_blinky.o ./src/sysinit.o   -llpc_board_lpcxpresso_54114_m0 -llpc_chip_5411x_m0 -lpower_m0 && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --remove-section=.ARM.attributes --redefine-sym __vectors_start__=__vectors_start___core_m0slave --keep-symbol __vectors_start___core_m0slave --redefine-sym _data=__start_data_core_m0slave --keep-symbol __start_data_core_m0slave --redefine-sym _edata=__end_data_core_m0slave --keep-symbol __end_data_core_m0slave --remove-section=".bss*" --remove-section=".noinit*" --rename-section .ARM.exidx=".core_m0slave.ARM.exidx" --rename-section .ARM.extab=".core_m0slave.ARM.extab" --rename-section .text=".core_m0slave" --rename-section .data=".core_m0slave.data" --rename-section .data_RAM2=".core_m0slave.data_RAM2" --rename-section .data_RAM3=".core_m0slave.data_RAM3" "multicore_m0slave_blinky.axf" "multicore_m0slave_blinky.axf.o"
+copy from `multicore_m0slave_blinky.axf' [elf32-littlearm] to `multicore_m0slave_blinky.axf.o' [elf32-littlearm]
+Finished building target: multicore_m0slave_blinky.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "multicore_m0slave_blinky.axf"; # arm-none-eabi-objcopy -v -O binary "multicore_m0slave_blinky.axf" "multicore_m0slave_blinky.bin" ; # checksum -p LPC54114J256_M0 -d "multicore_m0slave_blinky.bin";
+   text	   data	    bss	    dec	    hex	filename
+   3104	      0	     16	   3120	    c30	multicore_m0slave_blinky.axf
+ 
+
+11:37:45 Build Finished (took 810ms)
+

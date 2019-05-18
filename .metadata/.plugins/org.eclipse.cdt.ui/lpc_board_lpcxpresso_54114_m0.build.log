@@ -1,0 +1,28 @@
+11:37:29 **** Build of configuration Debug for project lpc_board_lpcxpresso_54114_m0 ****
+make -r all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building target: liblpc_board_lpcxpresso_54114_m0.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_board_lpcxpresso_54114_m0.a"  ./src/board.o ./src/board_sysinit.o   
+arm-none-eabi-ar: creating liblpc_board_lpcxpresso_54114_m0.a
+Finished building target: liblpc_board_lpcxpresso_54114_m0.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_board_lpcxpresso_54114_m0.a" ; # arm-none-eabi-objdump -h -S "liblpc_board_lpcxpresso_54114_m0.a" >"liblpc_board_lpcxpresso_54114_m0.lss"
+   text	   data	    bss	    dec	    hex	filename
+   1844	      0	      0	   1844	    734	board.o (ex liblpc_board_lpcxpresso_54114_m0.a)
+    814	      0	      0	    814	    32e	board_sysinit.o (ex liblpc_board_lpcxpresso_54114_m0.a)
+ 
+
+11:37:30 Build Finished (took 878ms)
+

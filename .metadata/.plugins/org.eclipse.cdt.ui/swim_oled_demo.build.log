@@ -1,0 +1,121 @@
+11:38:56 **** Build of configuration Debug for project swim_oled_demo ****
+make -r -j8 all 
+Building file: ../swim/lpc_colors.c
+Building file: ../swim/lpc_fonts.c
+Building file: ../swim/lpc_helvr10.c
+Building file: ../swim/lpc_rom8x16.c
+Building file: ../swim/lpc_rom8x8.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_colors.d" -MT"swim/lpc_colors.o" -MT"swim/lpc_colors.d" -o "swim/lpc_colors.o" "../swim/lpc_colors.c"
+Building file: ../swim/lpc_swim.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_fonts.d" -MT"swim/lpc_fonts.o" -MT"swim/lpc_fonts.d" -o "swim/lpc_fonts.o" "../swim/lpc_fonts.c"
+Building file: ../swim/lpc_swim_font.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_helvr10.d" -MT"swim/lpc_helvr10.o" -MT"swim/lpc_helvr10.d" -o "swim/lpc_helvr10.o" "../swim/lpc_helvr10.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_rom8x8.d" -MT"swim/lpc_rom8x8.o" -MT"swim/lpc_rom8x8.d" -o "swim/lpc_rom8x8.o" "../swim/lpc_rom8x8.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_rom8x16.d" -MT"swim/lpc_rom8x16.o" -MT"swim/lpc_rom8x16.d" -o "swim/lpc_rom8x16.o" "../swim/lpc_rom8x16.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_swim.d" -MT"swim/lpc_swim.o" -MT"swim/lpc_swim.d" -o "swim/lpc_swim.o" "../swim/lpc_swim.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_swim_font.d" -MT"swim/lpc_swim_font.o" -MT"swim/lpc_swim_font.d" -o "swim/lpc_swim_font.o" "../swim/lpc_swim_font.c"
+Building file: ../swim/lpc_swim_image_mono.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_swim_image_mono.d" -MT"swim/lpc_swim_image_mono.o" -MT"swim/lpc_swim_image_mono.d" -o "swim/lpc_swim_image_mono.o" "../swim/lpc_swim_image_mono.c"
+Finished building: ../swim/lpc_colors.c
+ 
+Finished building: ../swim/lpc_helvr10.c
+Building file: ../swim/lpc_winfreesystem14x16.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_winfreesystem14x16.d" -MT"swim/lpc_winfreesystem14x16.o" -MT"swim/lpc_winfreesystem14x16.d" -o "swim/lpc_winfreesystem14x16.o" "../swim/lpc_winfreesystem14x16.c"
+Finished building: ../swim/lpc_rom8x8.c
+ 
+ 
+Building file: ../swim/lpc_x6x13.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_x6x13.d" -MT"swim/lpc_x6x13.o" -MT"swim/lpc_x6x13.d" -o "swim/lpc_x6x13.o" "../swim/lpc_x6x13.c"
+Building file: ../swim/lpc_x5x7.c
+Finished building: ../swim/lpc_fonts.c
+ 
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"swim/lpc_x5x7.d" -MT"swim/lpc_x5x7.o" -MT"swim/lpc_x5x7.d" -o "swim/lpc_x5x7.o" "../swim/lpc_x5x7.c"
+Building file: ../src/NXP_outline.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/NXP_outline.d" -MT"src/NXP_outline.o" -MT"src/NXP_outline.d" -o "src/NXP_outline.o" "../src/NXP_outline.c"
+Finished building: ../swim/lpc_rom8x16.c
+ 
+Building file: ../src/cr_startup_lpc5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc5411x.d" -MT"src/cr_startup_lpc5411x.o" -MT"src/cr_startup_lpc5411x.d" -o "src/cr_startup_lpc5411x.o" "../src/cr_startup_lpc5411x.c"
+Finished building: ../swim/lpc_swim_font.c
+ 
+Building file: ../src/crp.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../swim/lpc_winfreesystem14x16.c
+Finished building: ../swim/lpc_swim_image_mono.c
+Finished building: ../swim/lpc_x6x13.c
+ 
+ 
+ 
+Building file: ../src/delay.c
+Invoking: MCU C Compiler
+Building file: ../src/lpc_oled_driver.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/delay.d" -MT"src/delay.o" -MT"src/delay.d" -o "src/delay.o" "../src/delay.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/lpc_oled_driver.d" -MT"src/lpc_oled_driver.o" -MT"src/lpc_oled_driver.d" -o "src/lpc_oled_driver.o" "../src/lpc_oled_driver.c"
+Building file: ../src/ferrari_275.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/ferrari_275.d" -MT"src/ferrari_275.o" -MT"src/ferrari_275.d" -o "src/ferrari_275.o" "../src/ferrari_275.c"
+Finished building: ../src/NXP_outline.c
+ 
+Building file: ../src/oled.c
+Finished building: ../swim/lpc_swim.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/oled.d" -MT"src/oled.o" -MT"src/oled.d" -o "src/oled.o" "../src/oled.c"
+ 
+Building file: ../src/oled_io_bb.c
+Finished building: ../swim/lpc_x5x7.c
+ 
+Invoking: MCU C Compiler
+Building file: ../src/periph_oled_swim.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/oled_io_bb.d" -MT"src/oled_io_bb.o" -MT"src/oled_io_bb.d" -o "src/oled_io_bb.o" "../src/oled_io_bb.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/periph_oled_swim.d" -MT"src/periph_oled_swim.o" -MT"src/periph_oled_swim.d" -o "src/periph_oled_swim.o" "../src/periph_oled_swim.c"
+Finished building: ../src/crp.c
+Finished building: ../src/cr_startup_lpc5411x.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/swim_oled_demo/inc" -I"/home/harsh/LPC 54114/swim/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+ 
+Finished building: ../src/lpc_oled_driver.c
+ 
+Finished building: ../src/oled.c
+ 
+Finished building: ../src/delay.c
+ 
+Finished building: ../src/sysinit.c
+ 
+Finished building: ../src/ferrari_275.c
+ 
+Finished building: ../src/periph_oled_swim.c
+ 
+Finished building: ../src/oled_io_bb.c
+ 
+Building target: swim_oled_demo.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harsh/LPC 54114/lpc_chip_5411x/libs" -L"/home/harsh/LPC 54114/lpc_chip_5411x/Debug" -L"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/Debug" -Xlinker -Map="swim_oled_demo.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "periph_rtc_Debug.ld" -o "swim_oled_demo.axf"  ./swim/lpc_colors.o ./swim/lpc_fonts.o ./swim/lpc_helvr10.o ./swim/lpc_rom8x16.o ./swim/lpc_rom8x8.o ./swim/lpc_swim.o ./swim/lpc_swim_font.o ./swim/lpc_swim_image_mono.o ./swim/lpc_winfreesystem14x16.o ./swim/lpc_x5x7.o ./swim/lpc_x6x13.o  ./src/NXP_outline.o ./src/cr_startup_lpc5411x.o ./src/crp.o ./src/delay.o ./src/ferrari_275.o ./src/lpc_oled_driver.o ./src/oled.o ./src/oled_io_bb.o ./src/periph_oled_swim.o ./src/sysinit.o   -llpc_board_lpcxpresso_54114 -llpc_chip_5411x -lpower
+Finished building target: swim_oled_demo.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "swim_oled_demo.axf"; # arm-none-eabi-objcopy -v -O binary "swim_oled_demo.axf" "swim_oled_demo.bin" ; # checksum -p LPC54114J256 -d "swim_oled_demo.bin";
+   text	   data	    bss	    dec	    hex	filename
+  60060	  13216	  16996	  90272	  160a0	swim_oled_demo.axf
+ 
+
+11:38:57 Build Finished (took 977ms)
+

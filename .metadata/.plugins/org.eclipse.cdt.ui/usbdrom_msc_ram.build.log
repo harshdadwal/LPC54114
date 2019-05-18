@@ -1,0 +1,51 @@
+11:39:03 **** Build of configuration Debug for project usbdrom_msc_ram ****
+make -r -j8 all 
+Building file: ../src/cr_startup_lpc5411x.c
+Building file: ../src/crp.c
+Building file: ../src/msc_desc.c
+Building file: ../src/msc_main.c
+Building file: ../src/msc_ram.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../src/ramdisk.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_msc_ram/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc5411x.d" -MT"src/cr_startup_lpc5411x.o" -MT"src/cr_startup_lpc5411x.d" -o "src/cr_startup_lpc5411x.o" "../src/cr_startup_lpc5411x.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_msc_ram/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../src/sysinit.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_msc_ram/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/msc_desc.d" -MT"src/msc_desc.o" -MT"src/msc_desc.d" -o "src/msc_desc.o" "../src/msc_desc.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_msc_ram/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/msc_main.d" -MT"src/msc_main.o" -MT"src/msc_main.d" -o "src/msc_main.o" "../src/msc_main.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_msc_ram/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/msc_ram.d" -MT"src/msc_ram.o" -MT"src/msc_ram.d" -o "src/msc_ram.o" "../src/msc_ram.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_msc_ram/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/ramdisk.d" -MT"src/ramdisk.o" -MT"src/ramdisk.d" -o "src/ramdisk.o" "../src/ramdisk.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_msc_ram/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/crp.c
+ 
+Finished building: ../src/cr_startup_lpc5411x.c
+ 
+Finished building: ../src/msc_desc.c
+ 
+Finished building: ../src/ramdisk.c
+ 
+Finished building: ../src/sysinit.c
+ 
+Finished building: ../src/msc_main.c
+Finished building: ../src/msc_ram.c
+ 
+ 
+Building target: usbdrom_msc_ram.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x/libs" -Xlinker -Map="usbdrom_msc_ram.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "usbdrom_msc_ram_Debug.ld" -o "usbdrom_msc_ram.axf"  ./src/cr_startup_lpc5411x.o ./src/crp.o ./src/msc_desc.o ./src/msc_main.o ./src/msc_ram.o ./src/ramdisk.o ./src/sysinit.o   -llpc_board_lpcxpresso_54114 -llpc_chip_5411x -lpower
+Finished building target: usbdrom_msc_ram.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "usbdrom_msc_ram.axf"; # arm-none-eabi-objcopy -v -O binary "usbdrom_msc_ram.axf" "usbdrom_msc_ram.bin" ; # checksum -p LPC54114J256 -d "usbdrom_msc_ram.bin";
+   text	   data	    bss	    dec	    hex	filename
+  11080	     36	  16900	  28016	   6d70	usbdrom_msc_ram.axf
+ 
+
+11:39:04 Build Finished (took 777ms)
+

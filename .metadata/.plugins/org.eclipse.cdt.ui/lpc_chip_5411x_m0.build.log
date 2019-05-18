@@ -1,0 +1,166 @@
+11:37:40 **** Build of configuration Debug for project lpc_chip_5411x_m0 ****
+make -r all 
+Building file: ../src/adc_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/adc_5411x.d" -MT"src/adc_5411x.o" -MT"src/adc_5411x.d" -o "src/adc_5411x.o" "../src/adc_5411x.c"
+Finished building: ../src/adc_5411x.c
+ 
+Building file: ../src/chip_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/chip_5411x.d" -MT"src/chip_5411x.o" -MT"src/chip_5411x.d" -o "src/chip_5411x.o" "../src/chip_5411x.c"
+Finished building: ../src/chip_5411x.c
+ 
+Building file: ../src/clock_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/clock_5411x.d" -MT"src/clock_5411x.o" -MT"src/clock_5411x.d" -o "src/clock_5411x.o" "../src/clock_5411x.c"
+Finished building: ../src/clock_5411x.c
+ 
+Building file: ../src/dma_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/dma_5411x.d" -MT"src/dma_5411x.o" -MT"src/dma_5411x.d" -o "src/dma_5411x.o" "../src/dma_5411x.c"
+Finished building: ../src/dma_5411x.c
+ 
+Building file: ../src/dma_service_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/dma_service_5411x.d" -MT"src/dma_service_5411x.o" -MT"src/dma_service_5411x.d" -o "src/dma_service_5411x.o" "../src/dma_service_5411x.c"
+Finished building: ../src/dma_service_5411x.c
+ 
+Building file: ../src/dmic_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/dmic_5411x.d" -MT"src/dmic_5411x.o" -MT"src/dmic_5411x.d" -o "src/dmic_5411x.o" "../src/dmic_5411x.c"
+Finished building: ../src/dmic_5411x.c
+ 
+Building file: ../src/flexcomm_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/flexcomm_5411x.d" -MT"src/flexcomm_5411x.o" -MT"src/flexcomm_5411x.d" -o "src/flexcomm_5411x.o" "../src/flexcomm_5411x.c"
+Finished building: ../src/flexcomm_5411x.c
+ 
+Building file: ../src/fpu_init.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/fpu_init.d" -MT"src/fpu_init.o" -MT"src/fpu_init.d" -o "src/fpu_init.o" "../src/fpu_init.c"
+Finished building: ../src/fpu_init.c
+ 
+Building file: ../src/i2cm_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2cm_5411x.d" -MT"src/i2cm_5411x.o" -MT"src/i2cm_5411x.d" -o "src/i2cm_5411x.o" "../src/i2cm_5411x.c"
+Finished building: ../src/i2cm_5411x.c
+ 
+Building file: ../src/i2cs_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2cs_5411x.d" -MT"src/i2cs_5411x.o" -MT"src/i2cs_5411x.d" -o "src/i2cs_5411x.o" "../src/i2cs_5411x.c"
+Finished building: ../src/i2cs_5411x.c
+ 
+Building file: ../src/i2s_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2s_5411x.d" -MT"src/i2s_5411x.o" -MT"src/i2s_5411x.d" -o "src/i2s_5411x.o" "../src/i2s_5411x.c"
+Finished building: ../src/i2s_5411x.c
+ 
+Building file: ../src/iap.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/iap.d" -MT"src/iap.o" -MT"src/iap.d" -o "src/iap.o" "../src/iap.c"
+Finished building: ../src/iap.c
+ 
+Building file: ../src/pll_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/pll_5411x.d" -MT"src/pll_5411x.o" -MT"src/pll_5411x.d" -o "src/pll_5411x.o" "../src/pll_5411x.c"
+Finished building: ../src/pll_5411x.c
+ 
+Building file: ../src/ring_buffer.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/ring_buffer.d" -MT"src/ring_buffer.o" -MT"src/ring_buffer.d" -o "src/ring_buffer.o" "../src/ring_buffer.c"
+Finished building: ../src/ring_buffer.c
+ 
+Building file: ../src/rtc_ut.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/rtc_ut.d" -MT"src/rtc_ut.o" -MT"src/rtc_ut.d" -o "src/rtc_ut.o" "../src/rtc_ut.c"
+Finished building: ../src/rtc_ut.c
+ 
+Building file: ../src/sct_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sct_5411x.d" -MT"src/sct_5411x.o" -MT"src/sct_5411x.d" -o "src/sct_5411x.o" "../src/sct_5411x.c"
+Finished building: ../src/sct_5411x.c
+ 
+Building file: ../src/sct_pwm_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sct_pwm_5411x.d" -MT"src/sct_pwm_5411x.o" -MT"src/sct_pwm_5411x.d" -o "src/sct_pwm_5411x.o" "../src/sct_pwm_5411x.c"
+Finished building: ../src/sct_pwm_5411x.c
+ 
+Building file: ../src/spi_common_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/spi_common_5411x.d" -MT"src/spi_common_5411x.o" -MT"src/spi_common_5411x.d" -o "src/spi_common_5411x.o" "../src/spi_common_5411x.c"
+Finished building: ../src/spi_common_5411x.c
+ 
+Building file: ../src/spim_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/spim_5411x.d" -MT"src/spim_5411x.o" -MT"src/spim_5411x.d" -o "src/spim_5411x.o" "../src/spim_5411x.c"
+Finished building: ../src/spim_5411x.c
+ 
+Building file: ../src/spis_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/spis_5411x.d" -MT"src/spis_5411x.o" -MT"src/spis_5411x.d" -o "src/spis_5411x.o" "../src/spis_5411x.c"
+Finished building: ../src/spis_5411x.c
+ 
+Building file: ../src/stopwatch_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/stopwatch_5411x.d" -MT"src/stopwatch_5411x.o" -MT"src/stopwatch_5411x.d" -o "src/stopwatch_5411x.o" "../src/stopwatch_5411x.c"
+Finished building: ../src/stopwatch_5411x.c
+ 
+Building file: ../src/syscon_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/syscon_5411x.d" -MT"src/syscon_5411x.o" -MT"src/syscon_5411x.d" -o "src/syscon_5411x.o" "../src/syscon_5411x.c"
+Finished building: ../src/syscon_5411x.c
+ 
+Building file: ../src/sysinit_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sysinit_5411x.d" -MT"src/sysinit_5411x.o" -MT"src/sysinit_5411x.d" -o "src/sysinit_5411x.o" "../src/sysinit_5411x.c"
+Finished building: ../src/sysinit_5411x.c
+ 
+Building file: ../src/timer_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/timer_5411x.d" -MT"src/timer_5411x.o" -MT"src/timer_5411x.d" -o "src/timer_5411x.o" "../src/timer_5411x.c"
+Finished building: ../src/timer_5411x.c
+ 
+Building file: ../src/uart_5411x.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__CODE_RED -DCORE_M0PLUS -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_chip_5411x_m0/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/uart_5411x.d" -MT"src/uart_5411x.o" -MT"src/uart_5411x.d" -o "src/uart_5411x.o" "../src/uart_5411x.c"
+Finished building: ../src/uart_5411x.c
+ 
+Building target: liblpc_chip_5411x_m0.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_chip_5411x_m0.a"  ./src/adc_5411x.o ./src/chip_5411x.o ./src/clock_5411x.o ./src/dma_5411x.o ./src/dma_service_5411x.o ./src/dmic_5411x.o ./src/flexcomm_5411x.o ./src/fpu_init.o ./src/i2cm_5411x.o ./src/i2cs_5411x.o ./src/i2s_5411x.o ./src/iap.o ./src/pll_5411x.o ./src/ring_buffer.o ./src/rtc_ut.o ./src/sct_5411x.o ./src/sct_pwm_5411x.o ./src/spi_common_5411x.o ./src/spim_5411x.o ./src/spis_5411x.o ./src/stopwatch_5411x.o ./src/syscon_5411x.o ./src/sysinit_5411x.o ./src/timer_5411x.o ./src/uart_5411x.o   
+arm-none-eabi-ar: creating liblpc_chip_5411x_m0.a
+Finished building target: liblpc_chip_5411x_m0.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_chip_5411x_m0.a" ; # arm-none-eabi-objdump -h -S "liblpc_chip_5411x_m0.a" >"liblpc_chip_5411x_m0.lss"
+   text	   data	    bss	    dec	    hex	filename
+    500	      0	      0	    500	    1f4	adc_5411x.o (ex liblpc_chip_5411x_m0.a)
+    424	      0	      0	    424	    1a8	chip_5411x.o (ex liblpc_chip_5411x_m0.a)
+   1835	      0	      4	   1839	    72f	clock_5411x.o (ex liblpc_chip_5411x_m0.a)
+      0	      0	      0	      0	      0	dma_5411x.o (ex liblpc_chip_5411x_m0.a)
+   1132	      0	      0	   1132	    46c	dma_service_5411x.o (ex liblpc_chip_5411x_m0.a)
+    730	     96	      0	    826	    33a	dmic_5411x.o (ex liblpc_chip_5411x_m0.a)
+    864	      0	      0	    864	    360	flexcomm_5411x.o (ex liblpc_chip_5411x_m0.a)
+      0	      0	      0	      0	      0	fpu_init.o (ex liblpc_chip_5411x_m0.a)
+   1054	      0	      0	   1054	    41e	i2cm_5411x.o (ex liblpc_chip_5411x_m0.a)
+    592	      0	      0	    592	    250	i2cs_5411x.o (ex liblpc_chip_5411x_m0.a)
+   1538	      0	      0	   1538	    602	i2s_5411x.o (ex liblpc_chip_5411x_m0.a)
+    630	      0	      0	    630	    276	iap.o (ex liblpc_chip_5411x_m0.a)
+   3806	      0	      4	   3810	    ee2	pll_5411x.o (ex liblpc_chip_5411x_m0.a)
+    988	      0	      0	    988	    3dc	ring_buffer.o (ex liblpc_chip_5411x_m0.a)
+    760	     24	      0	    784	    310	rtc_ut.o (ex liblpc_chip_5411x_m0.a)
+    378	      0	      0	    378	    17a	sct_5411x.o (ex liblpc_chip_5411x_m0.a)
+    482	      0	      0	    482	    1e2	sct_pwm_5411x.o (ex liblpc_chip_5411x_m0.a)
+    358	      0	      0	    358	    166	spi_common_5411x.o (ex liblpc_chip_5411x_m0.a)
+   2048	      0	      0	   2048	    800	spim_5411x.o (ex liblpc_chip_5411x_m0.a)
+   1708	      0	      0	   1708	    6ac	spis_5411x.o (ex liblpc_chip_5411x_m0.a)
+    652	      0	     12	    664	    298	stopwatch_5411x.o (ex liblpc_chip_5411x_m0.a)
+    448	      0	      0	    448	    1c0	syscon_5411x.o (ex liblpc_chip_5411x_m0.a)
+    932	      0	      0	    932	    3a4	sysinit_5411x.o (ex liblpc_chip_5411x_m0.a)
+    184	      0	      0	    184	     b8	timer_5411x.o (ex liblpc_chip_5411x_m0.a)
+   3156	      0	      0	   3156	    c54	uart_5411x.o (ex liblpc_chip_5411x_m0.a)
+ 
+
+11:37:43 Build Finished (took 3s.83ms)
+

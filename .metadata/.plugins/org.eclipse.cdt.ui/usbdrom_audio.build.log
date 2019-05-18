@@ -1,0 +1,96 @@
+11:38:58 **** Build of configuration Debug for project usbdrom_audio ****
+make -r -j8 all 
+Building file: ../src/Power_Tasks.c
+Building file: ../src/audio_codec.c
+Building file: ../src/audio_desc.c
+Building file: ../src/audio_main.c
+Building file: ../src/audio_usbd.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../src/cr_startup_lpc5411x.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/Power_Tasks.d" -MT"src/Power_Tasks.o" -MT"src/Power_Tasks.d" -o "src/Power_Tasks.o" "../src/Power_Tasks.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/audio_codec.d" -MT"src/audio_codec.o" -MT"src/audio_codec.d" -o "src/audio_codec.o" "../src/audio_codec.c"
+Building file: ../src/crp.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/audio_desc.d" -MT"src/audio_desc.o" -MT"src/audio_desc.d" -o "src/audio_desc.o" "../src/audio_desc.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/audio_main.d" -MT"src/audio_main.o" -MT"src/audio_main.d" -o "src/audio_main.o" "../src/audio_main.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc5411x.d" -MT"src/cr_startup_lpc5411x.o" -MT"src/cr_startup_lpc5411x.d" -o "src/cr_startup_lpc5411x.o" "../src/cr_startup_lpc5411x.c"
+Invoking: MCU C Compiler
+Building file: ../src/delay.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/audio_usbd.d" -MT"src/audio_usbd.o" -MT"src/audio_usbd.d" -o "src/audio_usbd.o" "../src/audio_usbd.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/delay.d" -MT"src/delay.o" -MT"src/delay.d" -o "src/delay.o" "../src/delay.c"
+Finished building: ../src/crp.c
+ 
+Finished building: ../src/cr_startup_lpc5411x.c
+ 
+Building file: ../src/i2s_if.c
+Building file: ../src/i2c_if.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/i2s_if.d" -MT"src/i2s_if.o" -MT"src/i2s_if.d" -o "src/i2s_if.o" "../src/i2s_if.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/i2c_if.d" -MT"src/i2c_if.o" -MT"src/i2c_if.d" -o "src/i2c_if.o" "../src/i2c_if.c"
+Finished building: ../src/audio_main.c
+ 
+Finished building: ../src/delay.c
+Building file: ../src/main.c
+ 
+Building file: ../src/pll_setup.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/main.d" -MT"src/main.o" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Invoking: MCU C Compiler
+Finished building: ../src/audio_desc.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/pll_setup.d" -MT"src/pll_setup.o" -MT"src/pll_setup.d" -o "src/pll_setup.o" "../src/pll_setup.c"
+ 
+Building file: ../src/sine_file.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/sine_file.d" -MT"src/sine_file.o" -MT"src/sine_file.d" -o "src/sine_file.o" "../src/sine_file.c"
+Finished building: ../src/audio_codec.c
+ 
+Finished building: ../src/Power_Tasks.c
+Building file: ../src/sysinit.c
+ 
+Building file: ../src/wm8904.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/wm8904.d" -MT"src/wm8904.o" -MT"src/wm8904.d" -o "src/wm8904.o" "../src/wm8904.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/audio_usbd.c
+ 
+Building file: ../src/wm8904_config.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -DDEBUG -D__CODE_RED -DDONT_ENABLE_DISABLED_RAMBANKS -DCORE_M4 -D__USE_LPCOPEN -DCR_INTEGER_PRINTF -D__LPC5411X__ -D__REDLIB__ -I"/home/harsh/LPC 54114/usbdrom_audio/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/wm8904_config.d" -MT"src/wm8904_config.o" -MT"src/wm8904_config.d" -o "src/wm8904_config.o" "../src/wm8904_config.c"
+Finished building: ../src/i2c_if.c
+ 
+Finished building: ../src/sine_file.c
+ 
+Finished building: ../src/main.c
+ 
+Finished building: ../src/i2s_if.c
+ 
+Finished building: ../src/pll_setup.c
+ 
+Finished building: ../src/sysinit.c
+ 
+Finished building: ../src/wm8904.c
+ 
+Finished building: ../src/wm8904_config.c
+ 
+Building target: usbdrom_audio.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x/libs" -Xlinker -Map="usbdrom_audio.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "usbdrom_audio_Debug.ld" -o "usbdrom_audio.axf"  ./src/Power_Tasks.o ./src/audio_codec.o ./src/audio_desc.o ./src/audio_main.o ./src/audio_usbd.o ./src/cr_startup_lpc5411x.o ./src/crp.o ./src/delay.o ./src/i2c_if.o ./src/i2s_if.o ./src/main.o ./src/pll_setup.o ./src/sine_file.o ./src/sysinit.o ./src/wm8904.o ./src/wm8904_config.o   -llpc_board_lpcxpresso_54114 -llpc_chip_5411x -lpower
+Finished building target: usbdrom_audio.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "usbdrom_audio.axf"; # arm-none-eabi-objcopy -v -O binary "usbdrom_audio.axf" "usbdrom_audio.bin" ; # checksum -p LPC54114J256 -d "usbdrom_audio.bin";
+   text	   data	    bss	    dec	    hex	filename
+  27124	    248	  17692	  45064	   b008	usbdrom_audio.axf
+ 
+
+11:39:00 Build Finished (took 1s.166ms)
+

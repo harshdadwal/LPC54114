@@ -1,0 +1,76 @@
+11:38:21 **** Build of configuration Debug for project periph_i2s_dmic ****
+make -r -j8 all 
+Building file: ../src/audio_pll.c
+Building file: ../src/clkout.c
+Building file: ../src/cr_startup_lpc5411x.c
+Building file: ../src/crp.c
+Building file: ../src/delay.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../src/dmic_if.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/audio_pll.d" -MT"src/audio_pll.o" -MT"src/audio_pll.d" -o "src/audio_pll.o" "../src/audio_pll.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/clkout.d" -MT"src/clkout.o" -MT"src/clkout.d" -o "src/clkout.o" "../src/clkout.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+Building file: ../src/i2c_if.c
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc5411x.d" -MT"src/cr_startup_lpc5411x.o" -MT"src/cr_startup_lpc5411x.d" -o "src/cr_startup_lpc5411x.o" "../src/cr_startup_lpc5411x.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/delay.d" -MT"src/delay.o" -MT"src/delay.d" -o "src/delay.o" "../src/delay.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/dmic_if.d" -MT"src/dmic_if.o" -MT"src/dmic_if.d" -o "src/dmic_if.o" "../src/dmic_if.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2c_if.d" -MT"src/i2c_if.o" -MT"src/i2c_if.d" -o "src/i2c_if.o" "../src/i2c_if.c"
+Building file: ../src/i2s_dmic_demo.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2s_dmic_demo.d" -MT"src/i2s_dmic_demo.o" -MT"src/i2s_dmic_demo.d" -o "src/i2s_dmic_demo.o" "../src/i2s_dmic_demo.c"
+Finished building: ../src/cr_startup_lpc5411x.c
+ 
+Finished building: ../src/crp.c
+Building file: ../src/i2s_if.c
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/i2s_if.d" -MT"src/i2s_if.o" -MT"src/i2s_if.d" -o "src/i2s_if.o" "../src/i2s_if.c"
+Finished building: ../src/delay.c
+ 
+Building file: ../src/wm8904.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/wm8904.d" -MT"src/wm8904.o" -MT"src/wm8904.d" -o "src/wm8904.o" "../src/wm8904.c"
+Finished building: ../src/clkout.c
+ 
+Building file: ../src/wm8904_config.c
+Finished building: ../src/audio_pll.c
+ 
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__MULTICORE_NONE -D__USE_LPCOPEN -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -D__REDLIB__ -DDEBUG -I"/home/harsh/LPC 54114/periph_i2s_dmic/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -D__REDLIB__ -specs=redlib.specs -MMD -MP -MF"src/wm8904_config.d" -MT"src/wm8904_config.o" -MT"src/wm8904_config.d" -o "src/wm8904_config.o" "../src/wm8904_config.c"
+Finished building: ../src/i2s_dmic_demo.c
+Finished building: ../src/dmic_if.c
+ 
+ 
+Finished building: ../src/i2c_if.c
+ 
+Finished building: ../src/wm8904_config.c
+ 
+Finished building: ../src/sysinit.c
+ 
+Finished building: ../src/i2s_if.c
+ 
+Finished building: ../src/wm8904.c
+ 
+Building target: periph_i2s_dmic.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harsh/LPC 54114/lpc_chip_5411x/libs" -L"/home/harsh/LPC 54114/lpc_chip_5411x/Debug" -L"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/Debug" -Xlinker -Map="periph_i2s_dmic.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "periph_blinky_Debug.ld" -o "periph_i2s_dmic.axf"  ./src/audio_pll.o ./src/clkout.o ./src/cr_startup_lpc5411x.o ./src/crp.o ./src/delay.o ./src/dmic_if.o ./src/i2c_if.o ./src/i2s_dmic_demo.o ./src/i2s_if.o ./src/sysinit.o ./src/wm8904.o ./src/wm8904_config.o   -llpc_board_lpcxpresso_54114 -llpc_chip_5411x -lpower
+Finished building target: periph_i2s_dmic.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "periph_i2s_dmic.axf"; # arm-none-eabi-objcopy -v -O binary "periph_i2s_dmic.axf" "periph_i2s_dmic.bin" ; # checksum -p LPC54114J256 -d "periph_i2s_dmic.bin";
+   text	   data	    bss	    dec	    hex	filename
+  27596	     64	  48724	  76384	  12a60	periph_i2s_dmic.axf
+ 
+
+11:38:22 Build Finished (took 1s.29ms)
+

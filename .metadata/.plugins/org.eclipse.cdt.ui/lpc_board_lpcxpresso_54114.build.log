@@ -1,0 +1,28 @@
+11:37:27 **** Build of configuration Debug for project lpc_board_lpcxpresso_54114 ****
+make -r all 
+Building file: ../src/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/board.d" -MT"src/board.o" -MT"src/board.d" -o "src/board.o" "../src/board.c"
+Finished building: ../src/board.c
+ 
+Building file: ../src/board_sysinit.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DCORE_M4 -D__CODE_RED -D__LPC5411X__ -DDEBUG -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -Og -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/board_sysinit.d" -MT"src/board_sysinit.o" -MT"src/board_sysinit.d" -o "src/board_sysinit.o" "../src/board_sysinit.c"
+Finished building: ../src/board_sysinit.c
+ 
+Building target: liblpc_board_lpcxpresso_54114.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "liblpc_board_lpcxpresso_54114.a"  ./src/board.o ./src/board_sysinit.o   
+arm-none-eabi-ar: creating liblpc_board_lpcxpresso_54114.a
+Finished building target: liblpc_board_lpcxpresso_54114.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "liblpc_board_lpcxpresso_54114.a" ; # arm-none-eabi-objdump -h -S "liblpc_board_lpcxpresso_54114.a" >"liblpc_board_lpcxpresso_54114.lss"
+   text	   data	    bss	    dec	    hex	filename
+    814	      0	      0	    814	    32e	board.o (ex liblpc_board_lpcxpresso_54114.a)
+    316	      0	      0	    316	    13c	board_sysinit.o (ex liblpc_board_lpcxpresso_54114.a)
+ 
+
+11:37:28 Build Finished (took 928ms)
+

@@ -1,0 +1,47 @@
+11:37:38 **** Build of configuration Debug for project Test_1 ****
+make -r -j8 all 
+Building file: ../src/Test_1.c
+Building file: ../src/boot_multicore_slave.c
+Building file: ../src/cr_startup_lpc5411x.c
+Building file: ../src/crp.c
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_NONE -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/Test_1.d" -MT"src/Test_1.o" -MT"src/Test_1.d" -o "src/Test_1.o" "../src/Test_1.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_NONE -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/boot_multicore_slave.d" -MT"src/boot_multicore_slave.o" -MT"src/boot_multicore_slave.d" -o "src/boot_multicore_slave.o" "../src/boot_multicore_slave.c"
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_NONE -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/cr_startup_lpc5411x.d" -MT"src/cr_startup_lpc5411x.o" -MT"src/cr_startup_lpc5411x.d" -o "src/cr_startup_lpc5411x.o" "../src/cr_startup_lpc5411x.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_NONE -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+arm-none-eabi-gcc -DDEBUG -D__CODE_RED -DCORE_M4 -D__USE_LPCOPEN -D__LPC5411X__ -D__REDLIB__ -D__MULTICORE_NONE -I"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/inc" -I"/home/harsh/LPC 54114/lpc_chip_5411x/inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -specs=redlib.specs -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/boot_multicore_slave.c
+ 
+Finished building: ../src/crp.c
+ 
+Finished building: ../src/cr_startup_lpc5411x.c
+ 
+Finished building: ../src/sysinit.c
+ 
+Finished building: ../src/Test_1.c
+ 
+Building target: Test_1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"/home/harsh/LPC 54114/lpc_board_lpcxpresso_54114/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x/Debug" -L"/home/harsh/LPC 54114/lpc_chip_5411x/libs" -Xlinker -Map="Test_1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -T "Test_1_Debug.ld" -o "Test_1.axf"  ./src/Test_1.o ./src/boot_multicore_slave.o ./src/cr_startup_lpc5411x.o ./src/crp.o ./src/sysinit.o   -llpc_board_lpcxpresso_54114 -llpc_chip_5411x -lpower
+Memory region         Used Size  Region Size  %age Used
+       MFlash256:        6780 B       256 KB      2.59%
+         Ram0_64:          16 B        64 KB      0.02%
+         Ram1_64:          0 GB        64 KB      0.00%
+         Ram2_32:          0 GB        32 KB      0.00%
+         RamX_32:          0 GB        32 KB      0.00%
+Finished building target: Test_1.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Test_1.axf"; # arm-none-eabi-objcopy -v -O binary "Test_1.axf" "Test_1.bin" ; # checksum -p LPC54114J256 -d "Test_1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   6780	      0	     16	   6796	   1a8c	Test_1.axf
+ 
+
+11:37:39 Build Finished (took 779ms)
+
