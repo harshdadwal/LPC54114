@@ -6,7 +6,7 @@
 
 
 
-
+![Schematic](LPC541XX-BD.jpg)
 
 
 
